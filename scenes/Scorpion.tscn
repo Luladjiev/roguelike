@@ -4,10 +4,9 @@
 [ext_resource path="res://scenes/Scorpion.gd" type="Script" id=2]
 [ext_resource path="res://assets/tilemaps/roguelike.tres" type="TileSet" id=3]
 
-[node name="Enemy" instance=ExtResource( 1 )]
+[node name="Scorpion" index="0" instance=ExtResource( 1 )]
 script = ExtResource( 2 )
 
 [node name="TileMap" parent="." index="0"]
-position = Vector2( 0, 0 )
 tile_set = ExtResource( 3 )
 tile_data = PoolIntArray( 0, 4, 327680 )
